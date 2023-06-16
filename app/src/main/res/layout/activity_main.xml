@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp"
+        android:background="@color/secondary_dark"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:text="Películas"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/homeExit"
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/baseline_logout_24"
+            android:paddingLeft="1dp"
+            android:paddingRight="25sp"
+            android:text="exit"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:layout_marginTop="50dp"
+        android:name="com.artemiod.challengeandroidkotlinalkemy.ui.view.ListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

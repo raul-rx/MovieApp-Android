@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "249628972608",
+    "project_id": "javaaplicacion-2a032",
+    "storage_bucket": "javaaplicacion-2a032.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249628972608:android:923967ba67c95f5ba6b1a5",
+        "android_client_info": {
+          "package_name": "com.artemiod.challengeandroidkotlinalkemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249628972608-rcpalcfcss5nhdvubpv8m82t6r1je51l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiC2oHH-lGqT8cNYridVgn0aVuQn_AIpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249628972608-rcpalcfcss5nhdvubpv8m82t6r1je51l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249628972608:android:e087db7cf6ad5fa9a6b1a5",
+        "android_client_info": {
+          "package_name": "com.example.javaaplicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249628972608-rop3n6fibtgivqtr1ue33j444g3t0dqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.javaaplicacion",
+            "certificate_hash": "6ab8f47decc0116713be45816c6f2039af5285a8"
+          }
+        },
+        {
+          "client_id": "249628972608-rcpalcfcss5nhdvubpv8m82t6r1je51l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiC2oHH-lGqT8cNYridVgn0aVuQn_AIpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249628972608-rcpalcfcss5nhdvubpv8m82t6r1je51l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
