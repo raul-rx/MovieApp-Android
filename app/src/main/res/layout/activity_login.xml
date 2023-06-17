@@ -21,8 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:background="@color/white"
             android:orientation="vertical"
+            android:background="@color/cardview_light_background"
             android:padding="30dp">
 
             <TextView
@@ -41,11 +41,12 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/custom_edittext"
-                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawableLeft="@drawable/baseline_mail_24"
                 android:drawablePadding="8dp"
                 android:hint="Email"
                 android:padding="8dp"
-                android:textColor="@color/secondary" />
+                android:textColorHint="@color/background_type"
+                android:textColor="@color/black" />
 
             <EditText
                 android:id="@+id/login_password"
@@ -55,6 +56,7 @@
                 android:background="@drawable/custom_edittext"
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
+                android:textColorHint="@color/background_type"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:padding="8dp"
@@ -62,24 +64,46 @@
 
             <Button
                 android:id="@+id/login_button"
-                android:layout_width="match_parent"
+                android:layout_width="249dp"
                 android:layout_height="60dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
                 android:text="Iniciar Sesión"
                 android:textColor="@color/white"
+                android:backgroundTint="@color/secondary_dark"
                 android:textSize="18sp"
                 app:cornerRadius="20dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="---------Or---------"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login with:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/signgoogle"
                 android:layout_width="120dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/rectangle"
                 android:text="Google"
                 android:drawableLeft="@drawable/icons8_logo_de_google"
                 android:textAlignment="center"
+                android:backgroundTint="@color/secondary_dark"
                 android:textColor="@color/black"
                 android:textSize="19sp" />
 
@@ -88,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:padding="8dp"
                 android:text="Crear cuenta nueva"
                 android:textAlignment="center"
