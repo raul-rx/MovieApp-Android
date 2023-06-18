@@ -1,4 +1,4 @@
-# Android-App-TheMovieDB
+# Aplicación Movil-MovieAPP
 
 
 <p>El objetivo del ejercicio fué crear una Aplicación que tenga un inicio de session conectada a la plataforma de Firebase y con una autenticación de google y que tenga una pantalla principal en la que muestra una lista de películas populares. 
